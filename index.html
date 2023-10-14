@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="css/all.css" rel="stylesheet"  media="all" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="js/jquery-2.0.3.min.js"></script>
+<script src="js/scroll.js"></script>
+<title>网站首页</title>
+</head>
+
+<body>
+<div class="banner"> </div>
+<div class="menu">
+  <ul class="center">
+    <li><a href="index.html">网站首页</a></li>
+    <li><a href="jibenxinxi.html">基本信息</a></li>
+    <li><a href="gerenjilu.html">个人记录</a></li>
+    <li><a href="jingcaitupian.html">精彩图片</a></li>
+    <li><a href="huojiangjilu.html">获奖记录</a></li>
+    <li><a href="shipin.html">精彩视频</a></li>
+  </ul>
+</div>
+<div class="content">
+  <div class="left">
+    <div class="pics">
+      <p><img src="images/0.jpg" width="180" /></p>
+    </div>
+  </div>
+  <div class="right">
+    <h4 class="">基本信息</h4>
+    <div class="produce">里奥·梅西（Lionel Messi），1987年6月24日出生于阿根廷圣菲省罗萨里奥市，阿根廷足球运动员，司职前锋，现效力于美职联的迈阿密国际。
+      2000年，梅西加入巴塞罗那俱乐部，梅西将自己的职业生涯的巅峰献给了他所深爱的俱乐部，直到2021年离开，整整21年。2008年北京奥运会上，梅西随阿根廷国奥队夺取了金牌。2009年底，他当选了欧洲足球先生和世界足球先生。梅西2008-2009赛季率领球队连夺西甲、国王杯和欧冠三个冠军。2011年，梅西获得首届国际足联金球奖，还获得了欧足联欧洲最佳球员。2013年，他以46粒联赛进球的成绩第三次获得欧洲金靴奖奖杯。2014年，梅西随阿根廷队参加2014巴西世界杯。2014年巴西世界杯上，获得世界杯亚军。2022年卡塔尔世界杯，梅西带领阿根廷夺得世界杯冠军。
+      </p>
+    </div>
+  </div>
+  <div class="bar">图片</div>
+  <div class="pics scrollleft" >
+    <ul>
+      <li>
+        <p><img src="images/1.jpg" width="200" height="160"/></p>
+      </li>
+      <li>
+        <p><img src="images/2.jpg" width="200" height="160"/></p>
+      </li>
+      <li>
+        <p><img src="images/3.jpg" width="200" height="160"/></p>
+      </li>
+      <li>
+        <p><img src="images/4.jpg" width="200" height="160"/></p>
+      </li>
+      <li>
+        <p><img src="images/5.jpg" width="200" height="160"/></p>
+      </li>
+      <li>
+        <p><img src="images/6.jpg" width="200" height="160"/></p>
+      </li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+  <script type="text/javascript">
+$(document).ready(function(){
+
+	$(".scrollleft").imgscroll({
+		speed: 40,    //图片滚动速度
+		amount: 0,    //图片滚动过渡时间
+		width: 1,     //图片滚动步数
+		dir: "left"   // "left" 或 "up" 向左或向上滚动
+	});
+	
+
+	
+});
+</script>
+  <div class="bar">留言板</div>
+  <div class="msg pad">
+    <div> <span class="fl">你的性别：</span>
+      <input type="radio" name="aa" />
+      男
+      <input type="radio" name="aa" />
+      女 </div>
+    <div> <span class="fl">留言主题：</span>
+      <input type="text" size="50" />
+    </div>
+    <div> <span class="fl">留言内容：</span>
+      <textarea style="width:400px" rows="5"></textarea>
+    </div>
+    <div> <span class="fl">提交留言：</span>
+      <input type="submit"  value="提交" />
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="end">
+  <p>版权所有  网址：www.Messi.com</p>
+</div>
+<div class="clear"></div>
+</body>
+</html>
